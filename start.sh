@@ -9,6 +9,6 @@ chsh -s /bin/bash www-data
 chown www-data.www-data /var/www/
 
 chown -R www-data.www-data /var/www/html
-chown -R www-data.www-data /var/www/.console
+chown -R www-data.www-data /var/www/.composer
 
 sudo -H -u www-data composer update --with-dependencies -d /var/www/html
